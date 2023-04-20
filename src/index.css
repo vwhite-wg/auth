@@ -3,11 +3,46 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Lato', sans-serif;
+}
+.login-container { 
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #fff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+} 
+.login-container h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+#login-form { 
+    display: flex; 
+    flex-direction: column; 
+} 
+#login-form label { 
+    margin-bottom: 5px; 
+} 
+#login-form input { 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+} 
+#login-form button { 
+    padding: 8px; 
+    background-color: #1300FF; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+} #login-form button:hover { 
+    background-color: #1000D1; 
 }
